@@ -11,7 +11,7 @@ def load_wn_as_directed_graph(edges):
     :rtype: snap.PNGraph
     :return: wordnet loaded as directed graph using snap
     """
-    with open('input/cache.edges', 'w') as outfile:
+    with open('cache.edges', 'w') as outfile:
         for source_offset, target_offset in edges:
             outfile.write('%s\t%s\n' % (source_offset, target_offset))
     
