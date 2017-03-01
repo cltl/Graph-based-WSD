@@ -15,7 +15,7 @@ def load_wn_as_directed_graph(edges):
         for source_offset, target_offset in edges:
             outfile.write('%s\t%s\n' % (source_offset, target_offset))
     
-    g = snap.LoadEdgeList(snap.PNGraph, 'input/cache.edges', 0, 1, '\t')
+    g = snap.LoadEdgeList(snap.PNGraph, 'cache.edges', 0, 1, '\t')
     
     return g
 
