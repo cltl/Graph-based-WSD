@@ -1,0 +1,5 @@
+The folder snap-lib contains a slightly modified copy of the original SNAP library.
+
+You must enter in the folter snap-lib/snap-core and compile it with the command "make lib". This will create a static library called "libsnap.a"
+
+
